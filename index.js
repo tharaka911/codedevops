@@ -24,7 +24,7 @@ app.get('/metrics', async(req, res) => {
 });
 
 app.get('/ping', (req, res) => {
-    res.status(200).json({ message: "pong" })
+    res.status(200).json({ message: "pong2" })
 });
 app.get('/error', (req, res) => {
     // Simulating an internal server error (500)
